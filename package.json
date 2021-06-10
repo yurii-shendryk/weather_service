@@ -1,0 +1,30 @@
+{
+  "name": "weather_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurii-shendryk/weather_service.git"
+  },
+  "keywords": [],
+  "author": "YuriiShendryk <yuriishendryk93@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurii-shendryk/weather_service/issues"
+  },
+  "homepage": "https://github.com/yurii-shendryk/weather_service#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "got": "^11.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
