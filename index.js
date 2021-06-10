@@ -1,10 +1,10 @@
 const got = require("got");
-const cors = require("cors");
+// const cors = require("cors");
 const express = require("express");
 const app = express();
 require("dotenv").config(); // використовуємо для отримання даних з файлу .env
 
-app.use(cors());
+// app.use(cors());
 
 const PORT = process.env.PORT || 8081;
 const thirdPartyBaseUrl = "http://api.weatherbit.io/v2.0/current";
